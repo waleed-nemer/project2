@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Tajawal';
+    src: url('../fonts/Tajawal-Regular.ttf')  format("truetype");
+         local('Tajawal');
+   }
+
+
+html, body {
+    direction: rtl;
+    text-align: right;
+
+} 
+  
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+
+footer {
+	padding: 50px 0;
+	background: #e32b2b;
+	text-align: center;
+}
+
+footer p {
+	font-size: 13px;
+	line-height: 25px;
+	color: #fff;
+}
+footer p a { 
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: 0.055em;
+	color: #fff;
+}
+footer p a:hover { color: #fb6c6c; }
+footer img {
+	max-width: 150px !important;
+	margin: 15px auto;
+	background: #f8f8f8;
+	border-radius: 4px;
+}
+
+footer .social a {
+	display: inline-block;
+	margin: 0 2px;
+	margin-top: 5px;
+	padding: 2px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	background: #fff;
+	font-size: 14px;
+	border-radius: 4px;
+}
+
+footer .social a  i {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 30px;
+	border-radius: 3px;
+	border: 1px dashed #e32b2b;
+}
+
+footer .copy-right {
+	margin-top: 10px;
+}
